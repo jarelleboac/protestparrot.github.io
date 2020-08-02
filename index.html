@@ -18,7 +18,6 @@
     </header>
     -->
 
-
     <div class="picture-header">
 
     </div>
@@ -27,14 +26,14 @@
 
 
 
-        <a href="https://fontmeme.com/black-lives-matter-font/"><img src="https://fontmeme.com/permalink/200802/256884eee810509391051fd3b170dc03.png" alt="black-lives-matter-font" border="0"></a>
+        <a href="index.html"><img src="https://fontmeme.com/permalink/200802/256884eee810509391051fd3b170dc03.png" alt="black-lives-matter-font" border="0"></a>
         
       
       <div class="header-right">
         <!--<a class="active" href="#home">Home</a>-->
-        <a href="#contact">ABOUT</a>
-        <a href="#about">RESOUCES</a>
-        <a href="#about">DONATE</a>
+        <a href="about.html">ABOUT</a>
+        <a href="resources.html">RESOURCES</a>
+        <a href="donate.html">DONATE</a>
       </div>
   
 
@@ -46,30 +45,53 @@
     <span class="dot"></span>
     -->
 
+
     <div class="twitterborder">
       <div class="table">
         <div class="table-cell">
       <a class="twitter-timeline" 
-      href="https://twitter.com/BotProtests"  
-      ></a>
+      data-tweet-limit="3" href="https://twitter.com/BotProtests"  
+      data-width= "450" data-height= "180"></a>
      </a> 
       <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
       </div>
     </div>
+<!--
+<div class="counter" data-count="150">0</div>
+<div class="counter" data-count="85">0</div>
+<div class="counter" data-count="2200">0</div>-->
 
 
-    <div id="shiva"><span class="count">200</span></div>
-    <div id="shiva"><span class="count">1000</span></div>
-    <div id="shiva"><span class="count">853</span></div>
-    <div id="shiva"><span class="count">154</span></div>
-    <div id="shiva"><span class="count">10</span></div>
-    <div id="shiva"><span class="count">87</span></div>
-    <div style="clear:both"></div>
     
-    <br />
-    <br />
-    <p>Protect your privacy and protests with Protest Parrot. </p>
+
+<div class="circles-parent">
+    <p>Tweets Analyzed &nbsp Faces Detetced &nbsp Live Updates   </p>
+    <div id="shiva"><span class="count" style= padding 5px;>40</span></div>
+    <div id="shiva"><span class="count" style= padding 10px;>21</span></div>
+    <div id="shiva"><span class="count" style= padding 10px;>154</span></div>
+    <div style="clear:both"></div>
+</div>
+
+<div class="bot-quote">
+<p style="font-size:25px">Protect your privacy and your protests with Protest Parrot! </p>
+    <a href="https://twitter.com/BotProtests?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @BotProtests</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+        $('.count').each(function () {
+            $(this).prop('Counter', 0).animate({
+                Counter: $(this).text()
+            }, {
+                duration: 5000,
+                easing: 'swing',
+                step: function (now) {
+                    $(this).text(Math.ceil(now));
+                }
+            });
+        });
+  </script>
 
   </body>
 
