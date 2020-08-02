@@ -59,7 +59,7 @@ body {
 
 /*Style the active/current link*/
 .header a.active {
-  background-color: dodgerblue;
+  background-color:#1DA1F2;
   color: white;
 }
 
@@ -70,7 +70,8 @@ body {
 }
 
 .header-right: hover {
-
+  background-color: #ffcc00;
+  color: white;
 }
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
@@ -132,27 +133,32 @@ body {
 #shiva
 {
   //margin-bottom: 40%;
-  width: 100px;
-	height: 100px;
+  width: 180px;
+	height: 180px;
 	background: #FFCC00;
 	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
+	-webkit-border-radius: 100px;
 	//border-radius: 50px;
   float:left;
-
+  margin-top: 1px;
   //margin-right: 15%;
   margin:40px;
+  margin-bottom: 1px;
   //height: 100px;
   //width: 100px;
 }
 
 .count
 {
-  line-height: 100px;
+  //padding-top: 100px;
+  line-height: 150px;
   color:white;
-  margin-left:30px;
-  font-size:25px;
+  margin-left:53px;
+  //margin-top:700px;
+  //margin-bottom:30px;
+  font-size:70px;
 }
+
 
 .linker
 {
@@ -160,15 +166,23 @@ body {
   font-color: black;
 }
 
+
+/*parent of the circle counter thingies*/
 .circles-parent { //text-align:center; 
- margin: 180px 350px;
+ margin: 150px 2px;
   width: 100%;
   padding: 10px;
-  
+ font-size : 28px;
+ margin-left: 30px;
+ margin-top: 20px;
+  //color: #1DA1F2;
 }
 
 .bot-quote{
-margin: 50px;
+  margin-top: -155px;
+  //margin: 50px;
+  //margin-left: 9px;
+  align: center;
 }
 
 /*
