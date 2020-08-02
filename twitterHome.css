@@ -97,8 +97,10 @@ body {
 
 
   .dot {
-    height: 25px;
-    width: 25px;
+    //height: 25px;
+    //width: 25px;
+      height: 100px;
+  width: 100px;
     background-color: FFCC00;
     border-radius: 50%;
     display: inline-block;
@@ -108,7 +110,7 @@ body {
     //padding: 12px;
     width:450px;
     height:550px;
-    margin-top:3px;
+    margin-top:20px;
     margin-right:5%;
     float:right;
     background:#707070;
@@ -129,14 +131,19 @@ body {
 
 #shiva
 {
+  //margin-bottom: 40%;
   width: 100px;
 	height: 100px;
 	background: #FFCC00;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
-	border-radius: 50px;
+	//border-radius: 50px;
   float:left;
-  margin:5px;
+
+  //margin-right: 15%;
+  margin:40px;
+  //height: 100px;
+  //width: 100px;
 }
 
 .count
@@ -343,3 +350,10 @@ margin: 50px;
     transform:rotateZ(-2deg) translateX(5px) translateY(8px) translateZ(0);
   }
 }
+
+
+
+
+
+
+/*RESOURCES CSS*/
